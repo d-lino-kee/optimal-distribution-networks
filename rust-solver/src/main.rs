@@ -88,3 +88,24 @@ pub fn solve(problem: &Problem, run_sensitivity: bool) -> Result<Solution> {
     // Solve - returns error if infeasible
     let solution - model.solve().context("Solver failed")?;
 }
+
+fn main() -> Result<()> {
+    let cli = Cli::parse();
+    
+    // Read input: either from a file path or from stdin
+    let input_str = match &cli.input {
+        Some(path) => std::fs::read_to_string(path)
+            .with_context(|| format! ("Could not read: {path}"))?,
+        None => {
+            use std::io::Read;
+            let mut s = String::new();
+            std::io::stdin().read_to_string(&mut s)?' // ? = propagate error
+            s
+        }
+    }
+};
+
+// Parse JSON into our Problem struct
+// If the JSON is malformed, this returns an error with context
+let problem: Problem = 
+    
