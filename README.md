@@ -1,6 +1,8 @@
-# Optimal Distribution Networks
+# LaneCraft
 
-This is a planning tool for any company that ships goods from factories to retail stores through a network of warehouses. The question it answers is, which warehouses should we keep open, and how much should flow through each of them, so that we pay the lowest total cost while still meeting every store's demand.
+**MIP-Powered Distribution Network Optimizer**
+
+LaneCraft is a planning tool for any company that ships goods from factories to retail stores through a network of warehouses. The question it answers is, which warehouses should we keep open, and how much should flow through each of them, so that we pay the lowest total cost while still meeting every store's demand.
 
 Under the hood it is a mixed integer linear program. The integer part is a single yes or no for each candidate warehouse. The continuous part is the flow volume on every plant to warehouse lane and every warehouse to retailer lane. The solver minimises the sum of the fixed operating cost for any warehouse that is open plus the per unit shipping cost on every lane that actually carries volume.
 
