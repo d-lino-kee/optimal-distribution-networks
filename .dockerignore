@@ -1,0 +1,11 @@
+**/.git
+**/node_modules
+**/target
+**/.gradle
+**/build
+**/dist
+frontend/dist
+frontend/node_modules
+go-api/server
+rust-solver/target
+ruby-reporting/output

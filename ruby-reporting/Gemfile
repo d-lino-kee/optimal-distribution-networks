@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "httparty",    "~> 0.22"   # HTTP client — calls Go API
+gem "tty-table",   "~> 0.12"   # renders terminal tables
+gem "pastel",      "~> 0.8"    # terminal colours (green, red, bold)
+gem "prawn",       "~> 2.5"    # PDF generation
+gem "prawn-table", "~> 0.2"    # PDF tables (separate gem)
+gem "csv",         "~> 3.2"    # CSV export
+gem "dry-struct",  "~> 1.6"    # typed value objects
+gem "zeitwerk",    "~> 2.6"    # auto-loading by convention
+
+group :development, :test do
+  gem "rspec",   "~> 3.13"
+  gem "rubocop", "~> 1.65"
+end

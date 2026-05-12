@@ -1,0 +1,30 @@
+import type { Problem } from "./types";
+
+export const sampleProblem: Problem = {
+  plants: [
+    { id: "plant_chicago", capacity: 8000 },
+    { id: "plant_atlanta", capacity: 6000 },
+  ],
+  distribution_centers: [
+    { id: "dc_dallas",   city: "Dallas",   fixed_cost: 12000, capacity: 5000, min_utilization: 0 },
+    { id: "dc_denver",   city: "Denver",   fixed_cost: 11000, capacity: 4000, min_utilization: 0 },
+    { id: "dc_columbus", city: "Columbus", fixed_cost: 10000, capacity: 4500, min_utilization: 0 },
+  ],
+  retailers: [
+    { id: "ret_nyc",     demand: 2000 },
+    { id: "ret_la",      demand: 2500 },
+    { id: "ret_houston", demand: 1500 },
+    { id: "ret_chicago", demand: 1800 },
+  ],
+  shipping_costs: {
+    plant_to_dc: {
+      plant_chicago: { dc_dallas: 0.35, dc_denver: 0.42, dc_columbus: 0.18 },
+      plant_atlanta: { dc_dallas: 0.28, dc_denver: 0.55, dc_columbus: 0.30 },
+    },
+    dc_to_retailer: {
+      dc_dallas:   { ret_nyc: 1.40, ret_la: 0.95, ret_houston: 0.25, ret_chicago: 0.85 },
+      dc_denver:   { ret_nyc: 1.55, ret_la: 0.60, ret_houston: 1.10, ret_chicago: 0.95 },
+      dc_columbus: { ret_nyc: 0.65, ret_la: 1.70, ret_houston: 1.15, ret_chicago: 0.40 },
+    },
+  },
+};
