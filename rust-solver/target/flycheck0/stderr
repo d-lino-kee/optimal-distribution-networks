@@ -1,5 +1,5 @@
-   0.227377000s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint: fingerprint error for distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver)/Check { test: false }/TargetInner { name: "solver", doc: true, ..: with_path("C:\\Users\\DLeenie\\ML Projects\\optimal-distribution-networks\\rust-solver\\src\\main.rs", Edition2021) }
-   0.227544400s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\distribution-solver-879a72bb5e3df31a\bin-solver`
+   0.124890000s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint: fingerprint error for distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver)/Check { test: false }/TargetInner { name: "solver", doc: true, ..: with_path("C:\\Users\\DLeenie\\ML Projects\\optimal-distribution-networks\\rust-solver\\src\\main.rs", Edition2021) }
+   0.124990300s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\distribution-solver-879a72bb5e3df31a\bin-solver`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.257917100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Check { test: false }/TargetInner { ..: lib_target("anyhow", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\src\\lib.rs", Edition2021) }
-   0.258008600s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-db85ef2021a4376f\lib-anyhow`
+   0.144010100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Check { test: false }/TargetInner { ..: lib_target("anyhow", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\src\\lib.rs", Edition2021) }
+   0.144082200s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-db85ef2021a4376f\lib-anyhow`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -55,8 +55,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.260066600s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
-   0.260106100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-bca52ec9c173398f\run-build-script-build-script-build`
+   0.146107900s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
+   0.146129400s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-bca52ec9c173398f\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -86,8 +86,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.260568900s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
-   0.260595800s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-00432e692368ea64\build-script-build-script-build`
+   0.146290000s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
+   0.146300900s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anyhow-00432e692368ea64\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -117,8 +117,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.261861100s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.6.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.6.1\\src\\lib.rs", Edition2024) }
-   0.261898800s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clap-7787d64855c43362\lib-clap`
+   0.146888000s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.6.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.6.1\\src\\lib.rs", Edition2024) }
+   0.146909800s  INFO prepare_target{force=false package_id=clap v4.6.1 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clap-7787d64855c43362\lib-clap`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -146,8 +146,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.262890900s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.6.0\\src\\lib.rs", Edition2024) }
-   0.262925200s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clap_builder-870e3608fb54f632\lib-clap_builder`
+   0.156487900s  INFO prepare_target{force=false package_id=clap_derive v4.6.1 target="clap_derive"}: cargo::core::compiler::fingerprint: fingerprint error for clap_derive v4.6.1/Build/TargetInner { benched: false, for_host: true, proc_macro: true, ..: lib_target("clap_derive", ["proc-macro"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_derive-4.6.1\\src\\lib.rs", Edition2024) }
+   0.156536600s  INFO prepare_target{force=false package_id=clap_derive v4.6.1 target="clap_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clap_derive-9d69d5a60216895b\lib-clap_derive`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -176,8 +176,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.263735200s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint error for anstream v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstream-1.0.0\\src\\lib.rs", Edition2021) }
-   0.263765800s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anstream-632a7ac8d762cc72\lib-anstream`
+   0.157804900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
+   0.157842900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-cfae681f0b41c7e4\lib-proc_macro2`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -207,40 +207,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.265970600s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-query v1.1.5/Check { test: false }/TargetInner { ..: lib_target("anstyle_query", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-query-1.1.5\\src\\lib.rs", Edition2021) }
-   0.266008500s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anstyle-query-745633b026fcb290\lib-anstyle_query`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.266999800s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
-   0.267038700s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\windows-sys-42080be83a3f3a6e\lib-windows_sys`
+   0.159166100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.159195100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-76c338f680c62d38\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -272,8 +240,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.269368300s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-wincon v3.0.11/Check { test: false }/TargetInner { ..: lib_target("anstyle_wincon", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-wincon-3.0.11\\src\\lib.rs", Edition2021) }
-   0.269443000s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\anstyle-wincon-3b01745d61a4706d\lib-anstyle_wincon`
+   0.159476100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.159496300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-1ee1cfdc466af48f\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -294,48 +262,19 @@ Stack backtrace:
   12: git_filter_source_repo
   13: git_filter_source_repo
   14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
   17: <unknown>
   18: <unknown>
   19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.273188200s  INFO prepare_target{force=false package_id=clap_derive v4.6.1 target="clap_derive"}: cargo::core::compiler::fingerprint: fingerprint error for clap_derive v4.6.1/Build/TargetInner { benched: false, for_host: true, proc_macro: true, ..: lib_target("clap_derive", ["proc-macro"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_derive-4.6.1\\src\\lib.rs", Edition2024) }
-   0.273240500s  INFO prepare_target{force=false package_id=clap_derive v4.6.1 target="clap_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clap_derive-9d69d5a60216895b\lib-clap_derive`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.274477900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
-   0.274513300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-cfae681f0b41c7e4\lib-proc_macro2`
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.160664200s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\src\\lib.rs", Edition2021) }
+   0.160692500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-f02f686e54dc067b\lib-quote`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -365,8 +304,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.277630100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
-   0.277965300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-76c338f680c62d38\run-build-script-build-script-build`
+   0.161957400s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   0.161986900s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-f964a9ade41adae9\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -398,8 +337,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.278731500s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
-   0.278788400s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\proc-macro2-1ee1cfdc466af48f\build-script-build-script-build`
+   0.162250600s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   0.162271900s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-49ad6947ff1b3afe\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -431,8 +370,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.281694500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\src\\lib.rs", Edition2021) }
-   0.281754500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-f02f686e54dc067b\lib-quote`
+   0.163064200s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.117/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.117\\src\\lib.rs", Edition2021) }
+   0.163089200s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\syn-fea3a3d1ee8855be\lib-syn`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -462,105 +401,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.285989500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
-   0.286051700s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-f964a9ade41adae9\run-build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_libgit2_prerelease
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   0.286692300s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
-   0.286795100s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\quote-49ad6947ff1b3afe\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_libgit2_prerelease
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   0.288654100s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.117/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.117\\src\\lib.rs", Edition2021) }
-   0.288701700s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\syn-fea3a3d1ee8855be\lib-syn`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.289498000s  INFO prepare_target{force=false package_id=good_lp v1.15.1 target="good_lp"}: cargo::core::compiler::fingerprint: fingerprint error for good_lp v1.15.1/Check { test: false }/TargetInner { ..: lib_target("good_lp", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\good_lp-1.15.1\\src\\lib.rs", Edition2024) }
-   0.289528000s  INFO prepare_target{force=false package_id=good_lp v1.15.1 target="good_lp"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\good_lp-fc3b051e3be3eb3f\lib-good_lp`
+   0.163637200s  INFO prepare_target{force=false package_id=good_lp v1.15.1 target="good_lp"}: cargo::core::compiler::fingerprint: fingerprint error for good_lp v1.15.1/Check { test: false }/TargetInner { ..: lib_target("good_lp", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\good_lp-1.15.1\\src\\lib.rs", Edition2024) }
+   0.163661800s  INFO prepare_target{force=false package_id=good_lp v1.15.1 target="good_lp"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\good_lp-fc3b051e3be3eb3f\lib-good_lp`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -588,8 +430,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.290920100s  INFO prepare_target{force=false package_id=coin_cbc v0.1.8 target="coin_cbc"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc v0.1.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("coin_cbc", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc-0.1.8\\src\\lib.rs", Edition2018) }
-   0.290963500s  INFO prepare_target{force=false package_id=coin_cbc v0.1.8 target="coin_cbc"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc-5742bbb20f256cec\lib-coin_cbc`
+   0.164292800s  INFO prepare_target{force=false package_id=coin_cbc v0.1.8 target="coin_cbc"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc v0.1.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("coin_cbc", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc-0.1.8\\src\\lib.rs", Edition2018) }
+   0.164317400s  INFO prepare_target{force=false package_id=coin_cbc v0.1.8 target="coin_cbc"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc-5742bbb20f256cec\lib-coin_cbc`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -618,8 +460,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.292366200s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="coin_cbc_sys"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("coin_cbc_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\src\\lib.rs", Edition2018) }
-   0.292422200s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="coin_cbc_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-2787ef05cd14ee5d\lib-coin_cbc_sys`
+   0.164804400s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="coin_cbc_sys"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("coin_cbc_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\src\\lib.rs", Edition2018) }
+   0.164844300s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="coin_cbc_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-2787ef05cd14ee5d\lib-coin_cbc_sys`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -649,8 +491,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.294575000s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\build.rs", Edition2018) }
-   0.294614900s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-a9e383f13a59ee23\run-build-script-build-script-build`
+   0.165951200s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\build.rs", Edition2018) }
+   0.165975200s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-a9e383f13a59ee23\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -682,8 +524,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.294977900s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\build.rs", Edition2018) }
-   0.294998700s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-78d7bf047a73acee\build-script-build-script-build`
+   0.166244800s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for coin_cbc_sys v0.1.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\coin_cbc_sys-0.1.2\\build.rs", Edition2018) }
+   0.166265300s  INFO prepare_target{force=false package_id=coin_cbc_sys v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\coin_cbc_sys-78d7bf047a73acee\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -715,8 +557,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.297187100s  INFO prepare_target{force=false package_id=highs v2.1.0 target="highs"}: cargo::core::compiler::fingerprint: fingerprint error for highs v2.1.0/Check { test: false }/TargetInner { ..: lib_target("highs", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-2.1.0\\src\\lib.rs", Edition2021) }
-   0.297227600s  INFO prepare_target{force=false package_id=highs v2.1.0 target="highs"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-3aee4675cbddca08\lib-highs`
+   0.168594900s  INFO prepare_target{force=false package_id=highs v2.1.0 target="highs"}: cargo::core::compiler::fingerprint: fingerprint error for highs v2.1.0/Check { test: false }/TargetInner { ..: lib_target("highs", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-2.1.0\\src\\lib.rs", Edition2021) }
+   0.168628400s  INFO prepare_target{force=false package_id=highs v2.1.0 target="highs"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-3aee4675cbddca08\lib-highs`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -745,8 +587,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.297956500s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="highs_sys"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/Check { test: false }/TargetInner { ..: lib_target("highs_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\src\\lib.rs", Edition2018) }
-   0.297986300s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="highs_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-0f1f9d8aa33fd397\lib-highs_sys`
+   0.169229400s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="highs_sys"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/Check { test: false }/TargetInner { ..: lib_target("highs_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\src\\lib.rs", Edition2018) }
+   0.169254100s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="highs_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-0f1f9d8aa33fd397\lib-highs_sys`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -776,8 +618,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.299505400s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\build.rs", Edition2018) }
-   0.299538200s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-f30f1ac1681b7427\run-build-script-build-script-build`
+   0.170648100s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\build.rs", Edition2018) }
+   0.170677100s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-f30f1ac1681b7427\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -809,8 +651,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.299939400s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\build.rs", Edition2018) }
-   0.299960700s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-1cc41a7f66d60817\build-script-build-script-build`
+   0.170969100s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for highs-sys v1.14.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\highs-sys-1.14.2\\build.rs", Edition2018) }
+   0.170989100s  INFO prepare_target{force=false package_id=highs-sys v1.14.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\highs-sys-1cc41a7f66d60817\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -842,8 +684,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.300637600s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="bindgen"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/Build/TargetInner { ..: lib_target("bindgen", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\lib.rs", Edition2021) }
-   0.300664200s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="bindgen"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-cc73c6f008f16045\lib-bindgen`
+   0.171524500s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="bindgen"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/Build/TargetInner { ..: lib_target("bindgen", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\lib.rs", Edition2021) }
+   0.171547600s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="bindgen"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-cc73c6f008f16045\lib-bindgen`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -876,8 +718,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.303207400s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\build.rs", Edition2021) }
-   0.303251400s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-9d29a7f475b5dcce\run-build-script-build-script-build`
+   0.172780200s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\build.rs", Edition2021) }
+   0.172804800s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-9d29a7f475b5dcce\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -912,8 +754,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.303617500s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\build.rs", Edition2021) }
-   0.303638100s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-93062def2bcbcec2\build-script-build-script-build`
+   0.173024400s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for bindgen v0.72.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bindgen-0.72.1\\build.rs", Edition2021) }
+   0.173043800s  INFO prepare_target{force=false package_id=bindgen v0.72.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\bindgen-93062def2bcbcec2\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -948,8 +790,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.306421900s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\build.rs", Edition2021) }
-   0.306464100s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-2faeddfae27c04d3\run-build-script-build-script-build`
+   0.174597900s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\build.rs", Edition2021) }
+   0.174625900s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-2faeddfae27c04d3\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -985,8 +827,8 @@ Stack backtrace:
   27: git_midx_writer_dump
   28: BaseThreadInitThunk
   29: RtlUserThreadStart
-   0.306948500s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\build.rs", Edition2021) }
-   0.306981200s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-c8d1a6c5f8f15a28\build-script-build-script-build`
+   0.174938600s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\build.rs", Edition2021) }
+   0.174959100s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-c8d1a6c5f8f15a28\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1022,8 +864,8 @@ Stack backtrace:
   27: git_midx_writer_dump
   28: BaseThreadInitThunk
   29: RtlUserThreadStart
-   0.310186800s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\build.rs", Edition2021) }
-   0.310233500s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-abcff05aa5602b34\run-build-script-build-script-build`
+   0.176725700s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\build.rs", Edition2021) }
+   0.176761800s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-abcff05aa5602b34\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1059,8 +901,8 @@ Stack backtrace:
   27: git_midx_writer_dump
   28: BaseThreadInitThunk
   29: RtlUserThreadStart
-   0.310653100s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\build.rs", Edition2021) }
-   0.310683700s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-4415b600040e4158\build-script-build-script-build`
+   0.176989300s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\build.rs", Edition2021) }
+   0.177008500s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-4415b600040e4158\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1096,8 +938,8 @@ Stack backtrace:
   27: git_midx_writer_dump
   28: BaseThreadInitThunk
   29: RtlUserThreadStart
-   0.314303800s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="clang_sys"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/Build/TargetInner { name_inferred: true, ..: lib_target("clang_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\src\\lib.rs", Edition2021) }
-   0.314356200s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="clang_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-d20651e80bea9040\lib-clang_sys`
+   0.179249500s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="clang_sys"}: cargo::core::compiler::fingerprint: fingerprint error for clang-sys v1.8.1/Build/TargetInner { name_inferred: true, ..: lib_target("clang_sys", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clang-sys-1.8.1\\src\\lib.rs", Edition2021) }
+   0.179332300s  INFO prepare_target{force=false package_id=clang-sys v1.8.1 target="clang_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\clang-sys-d20651e80bea9040\lib-clang_sys`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1131,8 +973,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.315253000s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Build/TargetInner { ..: lib_target("libc", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\src\\lib.rs", Edition2021) }
-   0.315293400s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-2312350a32662b50\lib-libc`
+   0.180034100s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Build/TargetInner { ..: lib_target("libc", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\src\\lib.rs", Edition2021) }
+   0.180062100s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-2312350a32662b50\lib-libc`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1167,8 +1009,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.317486500s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\build.rs", Edition2021) }
-   0.317524600s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-32ddd8f5fd988b21\run-build-script-build-script-build`
+   0.181346400s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\build.rs", Edition2021) }
+   0.181374600s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-32ddd8f5fd988b21\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1205,8 +1047,8 @@ Stack backtrace:
   28: git_midx_writer_dump
   29: BaseThreadInitThunk
   30: RtlUserThreadStart
-   0.318248800s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\build.rs", Edition2021) }
-   0.318286400s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-9b6da6db91c87774\build-script-build-script-build`
+   0.181683300s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.186\\build.rs", Edition2021) }
+   0.181704700s  INFO prepare_target{force=false package_id=libc v0.2.186 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\libc-9b6da6db91c87774\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1243,8 +1085,8 @@ Stack backtrace:
   28: git_midx_writer_dump
   29: BaseThreadInitThunk
   30: RtlUserThreadStart
-   0.321809100s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="prettyplease"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/Build/TargetInner { ..: lib_target("prettyplease", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\src\\lib.rs", Edition2021) }
-   0.321858600s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="prettyplease"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-d7cfdf143683f074\lib-prettyplease`
+   0.184182300s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="prettyplease"}: cargo::core::compiler::fingerprint: fingerprint error for prettyplease v0.2.37/Build/TargetInner { ..: lib_target("prettyplease", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\prettyplease-0.2.37\\src\\lib.rs", Edition2021) }
+   0.184218700s  INFO prepare_target{force=false package_id=prettyplease v0.2.37 target="prettyplease"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\prettyplease-d7cfdf143683f074\lib-prettyplease`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1278,8 +1120,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.328178100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
-   0.328235000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-c55389c1f56c4844\lib-serde`
+   0.187382900s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.187425100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-c55389c1f56c4844\lib-serde`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1307,8 +1149,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.330445600s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
-   0.330486400s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-58ff6ab5bf28e202\run-build-script-build-script-build`
+   0.188935600s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.188969900s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-58ff6ab5bf28e202\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1338,8 +1180,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.330959200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
-   0.330989200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-1f3bc319f06ce027\build-script-build-script-build`
+   0.189225200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.189246400s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde-1f3bc319f06ce027\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1369,8 +1211,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.332301100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
-   0.332337900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-1ff2024c4d775afc\lib-serde_core`
+   0.190051300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.190077000s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-1ff2024c4d775afc\lib-serde_core`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1399,8 +1241,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.333994600s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
-   0.334028900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-ccc281f851e57bb7\run-build-script-build-script-build`
+   0.191143700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.191167100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-ccc281f851e57bb7\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1431,8 +1273,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.335366900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
-   0.335453100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-82ea98f9bf3fdb31\build-script-build-script-build`
+   0.191405700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.191424600s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_core-82ea98f9bf3fdb31\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1463,8 +1305,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.338064700s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
-   0.338124300s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_derive-74b9607fb11144ad\lib-serde_derive`
+   0.192142700s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
+   0.192165600s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_derive-74b9607fb11144ad\lib-serde_derive`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1493,8 +1335,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.339485700s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
-   0.339538000s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-8a3a7f89c728efa3\lib-serde_json`
+   0.192667700s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
+   0.192689900s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-8a3a7f89c728efa3\lib-serde_json`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1522,38 +1364,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.341253800s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.0\\src\\lib.rs", Edition2021) }
-   0.341293800s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\memchr-36255ea5870590c9\lib-memchr`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.343598700s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
-   0.343635200s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-dfc5f61546d4b26d\run-build-script-build-script-build`
+   0.195268900s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.195308600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-dfc5f61546d4b26d\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1583,8 +1395,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.344120400s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
-   0.344161400s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-ef7ad661a6eb0121\build-script-build-script-build`
+   0.195600100s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.195624600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\serde_json-ef7ad661a6eb0121\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1614,8 +1426,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.345473700s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
-   0.345512700s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-432d783345ed4d5f\lib-zmij`
+   0.196705200s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
+   0.196732400s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-432d783345ed4d5f\lib-zmij`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1644,8 +1456,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.349374300s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
-   0.349523400s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-375cc969dfe26a29\run-build-script-build-script-build`
+   0.197909700s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
+   0.197932800s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-375cc969dfe26a29\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1676,8 +1488,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.350683200s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
-   0.350972800s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-24c1cd7e16561251\build-script-build-script-build`
+   0.198253100s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\DLeenie\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
+   0.198277400s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\zmij-24c1cd7e16561251\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1708,8 +1520,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.353954400s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint: fingerprint error for distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver)/Check { test: true }/TargetInner { name: "solver", doc: true, ..: with_path("C:\\Users\\DLeenie\\ML Projects\\optimal-distribution-networks\\rust-solver\\src\\main.rs", Edition2021) }
-   0.354057000s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\distribution-solver-a2130cf00a2750ef\test-bin-solver`
+   0.199067600s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint: fingerprint error for distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver)/Check { test: true }/TargetInner { name: "solver", doc: true, ..: with_path("C:\\Users\\DLeenie\\ML Projects\\optimal-distribution-networks\\rust-solver\\src\\main.rs", Edition2021) }
+   0.199092800s  INFO prepare_target{force=false package_id=distribution-solver v0.1.0 (C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver) target="solver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\DLeenie\ML Projects\optimal-distribution-networks\rust-solver\target\debug\.fingerprint\distribution-solver-a2130cf00a2750ef\test-bin-solver`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1742,28 +1554,22 @@ Stack backtrace:
    Compiling prettyplease v0.2.37
    Compiling bindgen v0.72.1
    Compiling clang-sys v1.8.1
-    Checking windows-sys v0.61.2
    Compiling serde_core v1.0.228
    Compiling coin_cbc_sys v0.1.2
    Compiling zmij v1.0.21
-   Compiling serde v1.0.228
    Compiling anyhow v1.0.102
+   Compiling serde v1.0.228
    Compiling serde_json v1.0.149
-    Checking memchr v2.8.0
 error: could not compile `prettyplease` (build script) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...
-error: could not compile `coin_cbc_sys` (build script) due to 1 previous error
-error: could not compile `serde_json` (build script) due to 1 previous error
 error: could not compile `quote` (build script) due to 1 previous error
+error: could not compile `serde_json` (build script) due to 1 previous error
+error: could not compile `coin_cbc_sys` (build script) due to 1 previous error
+error: could not compile `serde_core` (build script) due to 1 previous error
+error: could not compile `anyhow` (build script) due to 1 previous error
 error: could not compile `proc-macro2` (build script) due to 1 previous error
+error: could not compile `bindgen` (build script) due to 1 previous error
+error: could not compile `serde` (build script) due to 1 previous error
 error: could not compile `zmij` (build script) due to 1 previous error
 error: could not compile `libc` (build script) due to 1 previous error
-error: could not compile `bindgen` (build script) due to 1 previous error
 error: could not compile `clang-sys` (build script) due to 1 previous error
-error: could not compile `serde_core` (build script) due to 1 previous error
-error: could not compile `serde` (build script) due to 1 previous error
-error: could not compile `anyhow` (build script) due to 1 previous error
-    Checking anstyle-query v1.1.5
-    Checking anstyle-wincon v3.0.11
-    Checking anstream v1.0.0
-    Checking clap_builder v4.6.0
